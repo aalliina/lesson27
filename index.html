@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#slider-range-max" ).slider({
+        range: "max",
+        min: 1,
+        max: 10,
+        value: 2,
+        slide: function( event, ui ) {
+          $( "#amount" ).val( ui.value );
+        }
+      });
+      $( "#amount" ).val( $( "#slider-range-max" ).slider( "value" ) );
+    } );
+    </script>
+     <script>
+      $( function() {
+        $( "#slider-range-max2" ).slider({
+          range: "max",
+          min: 1,
+          max: 10,
+          value: 2,
+          slide: function( event, ui ) {
+            $( "#amount2" ).val( ui.value );
+          }
+        });
+        $( "#amount2" ).val( $( "#slider-range-max2" ).slider( "value" ) );
+      } );
+      </script>
+       <script>
+        $( function() {
+          $( "#slider-range-max3" ).slider({
+            range: "max",
+            min: 1,
+            max: 10,
+            value: 2,
+            slide: function( event, ui ) {
+              $( "#amount3" ).val( ui.value );
+            }
+          });
+          $( "#amount3" ).val( $( "#slider-range-max3" ).slider( "value" ) );
+        } );
+        </script>
+         <script>
+          $( function() {
+            $( "#slider-range-max4" ).slider({
+              range: "max",
+              min: 1,
+              max: 10,
+              value: 2,
+              slide: function( event, ui ) {
+                $( "#amount4" ).val( ui.value );
+              }
+            });
+            $( "#amount4" ).val( $( "#slider-range-max4" ).slider( "value" ) );
+          } );
+          </script>
+           <script>
+            $( function() {
+              $( "#slider-range-max5" ).slider({
+                range: "max",
+                min: 1,
+                max: 10,
+                value: 2,
+                slide: function( event, ui ) {
+                  $( "#amount5" ).val( ui.value );
+                }
+              });
+              $( "#amount5" ).val( $( "#slider-range-max5" ).slider( "value" ) );
+            } );
+            </script>
+             <script>
+              $( function() {
+                $( "#slider-range-max6" ).slider({
+                  range: "max",
+                  min: 1,
+                  max: 10,
+                  value: 2,
+                  slide: function( event, ui ) {
+                    $( "#amount6" ).val( ui.value );
+                  }
+                });
+                $( "#amount6" ).val( $( "#slider-range-max6" ).slider( "value" ) );
+              } );
+              </script>
+    <style>
+        body{
+            font-size: 25px;
+        }
+        h1{
+          margin: auto;
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+ <br> <h1>Harry Potter movies</h1> <br>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://static.posters.cz/image/1300/%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B8/harry-potter-philosopher-s-stone-i104639.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Harry Potter and the Sorcerer's Stone</h5>
+                  <p class="card-text">On his 11th birthday, Harry receives a letter inviting him to study magic at the Hogwarts School of Witchcraft and Wizardry. Harry discovers that not only is he a wizard, but he is a famous one. He meets two best friends, Ron Weasley and Hermione Granger, and makes his first enemy, Draco Malfoy.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>
+            <label for="amount2" style="margin: 15px;">How would you rate this movie?</label>
+            <input type="text" id="amount2" readonly style="border:0; color:#096604; font-weight:bold;">
+          </p>
+          <div id="slider-range-max2"></div>
+      </div> <br> <br>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cdn.ananasposter.ru/image/cache/catalog/poster/film/89/4889-1000x830.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Harry Potter and the Chamber of Secrets</h5>
+              <p class="card-text">Harry Potter  returns to Hogwarts School of Wizardry for his second year. After a confrontation with a house-elf named Dobby , Harry escapes to the Weasley house with Ron Weasley in a flying car. They are then late for the train and have to ride it to school.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+            <label for="amount3" style="margin: 15px;">How would you rate this movie?</label>
+            <input type="text" id="amount3" readonly style="border:0; color:#096604; font-weight:bold;">
+          </p>
+          <div id="slider-range-max3"></div>
+      </div>  <br> <br>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.posters.cz/image/1300/art-photo/harry-potter-the-prisoner-of-azkaban-i105075.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Harry Potter and the Prisoner of Azkaban</h5>
+              <p class="card-text">Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        <label for="amount5" style="margin: 15px;">How would you rate this movie?</label>
+        <input type="text" id="amount5" readonly style="border:0; color:#096604; font-weight:bold;">
+      </p>
+      <div id="slider-range-max5"></div>
+  </div> <br> <br>
+     
+</body>
+</html>
